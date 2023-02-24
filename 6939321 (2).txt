@@ -1,0 +1,43 @@
+COMPUTER APPLICATION ASSIGNMENT
+Index number: 6939321
+Name: Nana Yaw Karikari 
+GitHub link: https:// github.com/6939321/6939321.gt 
+
+Question:
+Take it that you visit a car dealership and different varieties of cars are on sale; Generate a code that allows;
+
+a. A person to be equipped about the sale prices of the available cars.
+
+b. A person needed to input their car brand and they find out whether the car is available or not. (Yes/No)
+        
+# list of available cars and their prices cars = 
+{“Toyota Camry”: 10000
+ “Toyota V8”: 85000,
+“Honda CRV”:35000,
+“Toyota Matiz”:80000
+“Toyota Takoma”: 100000
+“ Benz C250”: 50500
+"Lagonda 16/80": 122272,
+"Lagonda 3-Litre": 343405,
+"Lamborghini 409GT*: 3455345,
+"Lamborghini Aventador": 1122634,
+"Lamborghini Countach": 6877181,
+"Lamborghini Diablo": 5500100,
+" Lamborghini Espada": 20100000,
+"Mercedes-Benz Type 300 Adenauer": 700100,
+"Mercedes-Benz C-CLass":56666,
+"Mercedes -AMG GT": 600000,
+"Mercedes -AMG GT": 545454,
+"Mitsubishi Outlander P-HEV": 177700}
+
+# get user input for car name
+car_name = input(“Enter a car_name:”)
+# check if car name is in the list of available cars if car_name in cars:
+print(“Yes”)
+#if car name is present, get its price
+car_price = cars[car_name]
+print( f “The price of {car_name} is ${car_price}.” )
+else:
+# if car name is not present, inform the user print(f “Sorry, {car_name} is not available.” )
+
+   
